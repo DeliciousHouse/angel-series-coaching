@@ -8,7 +8,7 @@ export const getStripeClient = () => {
     throw new Error("Stripe secret key is not configured.");
   }
   return new Stripe(stripeSecretKey, {
-    apiVersion: "2024-06-20"
+    apiVersion: "2026-01-28.clover"
   });
 };
 

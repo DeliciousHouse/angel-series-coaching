@@ -5,4 +5,10 @@ services:
     ports:
       - "3000:3000"
     env_file:
-      - .env.local
+      - .env
+    networks:
+      - shared_webnet
+
+networks:
+  shared_webnet:
+    external: true
