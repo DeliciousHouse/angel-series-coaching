@@ -1,0 +1,34 @@
+[
+  {
+    "id": "event-vision-map",
+    "title": "Vision Mapping Workshop",
+    "start": "2026-02-15T17:00:00-08:00",
+    "end": "2026-02-15T18:30:00-08:00",
+    "description": "A guided workshop to clarify your vision and define aligned goals.",
+    "location": "Online (Zoom link sent after registration)",
+    "price": 25,
+    "capacity": 30,
+    "stripePriceEnv": "STRIPE_PRICE_EVENT_VISION"
+  },
+  {
+    "id": "event-boundaries",
+    "title": "Boundaries for High Achievers",
+    "start": "2026-02-22T16:00:00-08:00",
+    "end": "2026-02-22T17:00:00-08:00",
+    "description": "Learn practical scripts and strategies for confident boundary setting.",
+    "location": "Online (Cal.com link sent after registration)",
+    "price": 0,
+    "capacity": 50
+  },
+  {
+    "id": "event-reset-retreat",
+    "title": "Monthly Reset Circle",
+    "start": "2026-03-05T18:00:00-08:00",
+    "end": "2026-03-05T19:15:00-08:00",
+    "description": "A small-group reset to reflect, recalibrate, and plan your next month.",
+    "location": "San Francisco, CA (address shared after registration)",
+    "price": 40,
+    "capacity": 16,
+    "stripePriceEnv": "STRIPE_PRICE_EVENT_RESET"
+  }
+]

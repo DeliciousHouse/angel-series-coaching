@@ -1,0 +1,45 @@
+[
+  {
+    "id": "t-clarity",
+    "name": "Maya R.",
+    "role": "Founder",
+    "quote": "Angel Series Coaching helped me turn overwhelm into a focused, doable plan. I left every session with clarity and momentum.",
+    "permission": true,
+    "rating": 5,
+    "photo": "/images/testimonial-1.svg"
+  },
+  {
+    "id": "t-boundaries",
+    "name": "Jordan K.",
+    "role": "Healthcare Professional",
+    "quote": "I learned how to set boundaries without guilt and finally felt in control of my time and energy.",
+    "permission": true,
+    "rating": 5,
+    "photo": "/images/testimonial-2.svg"
+  },
+  {
+    "id": "t-confidence",
+    "name": "Elena P.",
+    "role": "Creative Director",
+    "quote": "The coaching process was structured but personal. I gained confidence and a clearer sense of purpose.",
+    "permission": true,
+    "rating": 5
+  },
+  {
+    "id": "t-leadership",
+    "name": "Chris A.",
+    "role": "Team Lead",
+    "quote": "Each session felt like a reset. I now lead with calm and a plan instead of reacting.",
+    "permission": true,
+    "rating": 5,
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+  },
+  {
+    "id": "t-transition",
+    "name": "Sofia L.",
+    "role": "Career Transition",
+    "quote": "Angel Series Coaching gave me the tools to make a major career shift with confidence and peace.",
+    "permission": true,
+    "rating": 5
+  }
+]
