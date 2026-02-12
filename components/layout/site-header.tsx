@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { siteConfig } from "@/lib/site";
@@ -24,8 +25,16 @@ export const SiteHeader = () => {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 sm:px-10 lg:px-16">
-        <Link href="/" className="text-lg font-semibold tracking-tight">
-          {siteConfig.name}
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/images/logo-primary.png"
+            alt="Angel Series logo"
+            width={180}
+            height={126}
+            className="h-10 w-auto"
+            priority
+          />
+          <span className="sr-only">{siteConfig.name}</span>
         </Link>
         <nav className="hidden items-center gap-6 lg:flex">
           {navItems.map((item) => (

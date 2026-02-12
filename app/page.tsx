@@ -52,7 +52,7 @@ export default function Home() {
           url: siteConfig.url,
           description: siteConfig.description,
           areaServed: "Worldwide",
-          serviceType: "Coaching",
+          serviceType: `${siteConfig.coachType} Coaching`,
           offers: services.map((service) => ({
             "@type": "Offer",
             name: service.title,
@@ -63,20 +63,72 @@ export default function Home() {
       />
       <Hero />
 
+      <Section>
+        <Container className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
+          <div className="space-y-4">
+            <h2 className="section-title">
+              Transformative coaching through embodiment and community
+            </h2>
+            <p className="section-subtitle">
+              Angel Series helps people build real-world momentum: set goals,
+              remove friction, and practice new skills until they&apos;re
+              stable—not just understood.
+            </p>
+          </div>
+          <Card>
+            <CardHeader>
+              <CardTitle>What makes it different</CardTitle>
+            </CardHeader>
+            <CardContent className="text-sm text-muted-foreground">
+              <ul className="space-y-3">
+                <li>
+                  <span className="font-semibold text-foreground">
+                    Embodiment first:
+                  </span>{" "}
+                  concepts become repeatable behaviors
+                </li>
+                <li>
+                  <span className="font-semibold text-foreground">
+                    Scaffolding Into Strength:
+                  </span>{" "}
+                  support that tapers as capability grows
+                </li>
+                <li>
+                  <span className="font-semibold text-foreground">
+                    Community learning:
+                  </span>{" "}
+                  reflection, discussion, practice, and teaching reinforce
+                  progress
+                </li>
+                <li>
+                  <span className="font-semibold text-foreground">
+                    Realness over perfection:
+                  </span>{" "}
+                  honest coaching that makes setbacks workable
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
+        </Container>
+      </Section>
+
       <Section className="bg-white">
         <Container className="grid gap-8 lg:grid-cols-3">
           {[
             {
               title: "Mission",
-              copy: "Help high-achieving individuals create aligned goals and steady progress."
+              copy:
+                "Empowerment through Connection: \"Our mission is to empower individuals on their personal growth journeys by providing supportive coaching and a nurturing community, fostering connection, self-discovery, and lasting transformation.\""
             },
             {
               title: "Vision",
-              copy: "A world where clarity and confidence guide every meaningful decision."
+              copy:
+                "Pathways to Empowered Living: \"We envision a world where everyone has access to transformational coaching and a supportive network, leading to a life of empowerment, purpose, and resilience in the face of challenges.\""
             },
             {
               title: "Purpose",
-              copy: "Support people in building lives and careers that feel grounded and intentional."
+              copy:
+                "\"To create transformative experiences that inspire individuals to embrace their unique journeys, cultivate meaningful relationships, and thrive within a supportive community.\""
             }
           ].map((item) => (
             <Card key={item.title}>
@@ -95,11 +147,10 @@ export default function Home() {
         <Container className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="space-y-4">
             <Badge>Meet your coach</Badge>
-            <h2 className="section-title">Angel Series Coaching, led with heart.</h2>
+            <h2 className="section-title">Eric Poczik, Health Optimization Coach</h2>
             <p className="section-subtitle">
-              A calm, strategic partner who blends compassionate coaching with
-              clear action. Expect a safe space, honest reflections, and a plan
-              you can trust.
+              I help driven individuals reach their goals through structured
+              exercise, intentional nutrition, and sustainable habits.
             </p>
             <div className="rounded-2xl border border-dashed border-border bg-white p-4 text-sm text-muted-foreground">
               Optional video embed space for a short intro or reel.
@@ -107,8 +158,8 @@ export default function Home() {
           </div>
           <div className="relative">
             <Image
-              src="/images/coach-placeholder.svg"
-              alt="Coach portrait placeholder"
+              src="/images/eric-coach-portrait.webp"
+              alt="Eric Poczik portrait"
               width={800}
               height={1000}
               sizes="(min-width: 1024px) 40vw, 100vw"

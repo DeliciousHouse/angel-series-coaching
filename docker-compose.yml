@@ -1,9 +1,13 @@
 ---
 services:
   web:
-    build: .
+    build:
+      context: .
+      args:
+        NEXT_PUBLIC_SCHEDULER_EMBED_URL: ${NEXT_PUBLIC_SCHEDULER_EMBED_URL}
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL}
     ports:
-      - "3000:3000"
+      - "3020:3000"
     env_file:
       - .env
     networks:
