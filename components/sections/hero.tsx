@@ -15,15 +15,21 @@ export const Hero = () => {
           transition={{ duration: 0.6 }}
           className="space-y-6"
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
-            Angel Series
-          </p>
+          <Image
+            src="/images/logo.svg"
+            alt="Angel Series Coaching Network"
+            width={200}
+            height={143}
+            className="h-20 w-auto object-contain"
+            priority
+          />
           <h1 className="text-4xl font-semibold leading-tight sm:text-5xl">
-            Embodiment-based coaching that turns insight into action.
+            Coaching for clarity, focus, and calm momentum.
           </h1>
           <p className="text-lg text-muted-foreground">
-            Workshops, 1:1 coaching, and community support designed for lasting
-            change.
+            Private coaching that blends compassionate support with practical
+            strategy. Define your goals, build consistent habits, and lead with
+            confidence.
           </p>
           <div className="flex flex-col gap-4 sm:flex-row">
             <Button asChild size="lg">
@@ -42,8 +48,8 @@ export const Hero = () => {
         >
           <div className="absolute -inset-4 rounded-3xl bg-brand-100 blur-2xl" />
           <Image
-            src="/images/eric-coach-community.webp"
-            alt="Eric Poczik at a community event"
+            src="/images/hero-placeholder.svg"
+            alt="Angel Series Coaching hero"
             width={1200}
             height={700}
             sizes="(min-width: 1024px) 50vw, 100vw"
