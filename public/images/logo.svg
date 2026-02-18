@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4d03f"/>
+      <stop offset="50%" stop-color="#d4a017"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e91e8c"/>
+      <stop offset="100%" stop-color="#ad1457"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="0.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Halo -->
+  <circle cx="140" cy="32" r="14" stroke="url(#gold)" stroke-width="2" fill="none" filter="url(#glow)"/>
+  <!-- Left wing -->
+  <path d="M75 50 Q45 58 32 75 Q25 92 40 108 Q58 95 72 78 Q82 58 75 50Z" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M80 58 Q58 64 48 80 Q44 92 52 100 Q66 88 76 72 Q84 58 80 58Z" fill="none" stroke="url(#gold)" stroke-width="1.2" opacity="0.7"/>
+  <!-- Right wing -->
+  <path d="M205 50 Q235 58 248 75 Q255 92 240 108 Q222 95 208 78 Q198 58 205 50Z" fill="none" stroke="url(#gold)" stroke-width="2"/>
+  <path d="M200 58 Q222 64 232 80 Q236 92 228 100 Q214 88 204 72 Q196 58 200 58Z" fill="none" stroke="url(#gold)" stroke-width="1.2" opacity="0.7"/>
+  <!-- Heart left half (pink) - from centerline to left -->
+  <path d="M140 105 C95 65 50 82 72 118 C90 142 140 158 140 158 L140 105Z" fill="url(#pink)" stroke="url(#gold)" stroke-width="2"/>
+  <!-- Heart right half (dark) -->
+  <path d="M140 105 C185 65 230 82 208 118 C190 142 140 158 140 158 L140 105Z" fill="#2d2420" stroke="url(#gold)" stroke-width="2"/>
+  <!-- Golden stitch line down center -->
+  <path d="M140 105 L140 158" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Text: ANGEL SERIES -->
+  <text x="140" y="185" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" fill="url(#gold)">ANGEL SERIES</text>
+  <!-- Text: COACHING NETWORK -->
+  <text x="140" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" font-weight="500" letter-spacing="0.08em" fill="url(#gold)">COACHING NETWORK</text>
+</svg>

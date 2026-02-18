@@ -15,9 +15,14 @@ export const Hero = () => {
           transition={{ duration: 0.6 }}
           className="space-y-6"
         >
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
-            Angel Series Coaching
-          </p>
+          <Image
+            src="/images/logo.svg"
+            alt="Angel Series Coaching Network"
+            width={200}
+            height={143}
+            className="h-20 w-auto object-contain"
+            priority
+          />
           <h1 className="text-4xl font-semibold leading-tight sm:text-5xl">
             Coaching for clarity, focus, and calm momentum.
           </h1>

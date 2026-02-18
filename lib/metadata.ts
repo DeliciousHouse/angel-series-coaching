@@ -18,10 +18,10 @@ export const baseMetadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: "/images/hero-placeholder.svg",
-        width: 1200,
-        height: 700,
-        alt: "Angel Series Coaching"
+        url: "/images/logo.svg",
+        width: 280,
+        height: 200,
+        alt: "Angel Series Coaching Network"
       }
     ]
   },
@@ -29,7 +29,7 @@ export const baseMetadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: ["/images/hero-placeholder.svg"]
+    images: ["/images/logo.svg"]
   }
 };
 
