@@ -16,7 +16,7 @@ export const Hero = () => {
           className="space-y-6"
         >
           <Image
-            src="/images/logo.svg"
+            src="/images/logo.webp"
             alt="Angel Series Coaching Network"
             width={200}
             height={143}

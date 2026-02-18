@@ -23,7 +23,7 @@ export const SiteFooter = () => {
         <div className="space-y-3">
           <Link href="/" className="block">
             <Image
-              src="/images/logo.svg"
+              src="/images/logo.webp"
               alt={siteConfig.name}
               width={160}
               height={57}
