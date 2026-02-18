@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 
 const legalLinks = [
@@ -20,7 +21,15 @@ export const SiteFooter = () => {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-12 sm:px-10 lg:grid-cols-3 lg:px-16">
         <div className="space-y-3">
-          <h3 className="text-lg font-semibold">{siteConfig.name}</h3>
+          <Link href="/" className="block">
+            <Image
+              src="/images/logo.svg"
+              alt={siteConfig.name}
+              width={160}
+              height={57}
+              className="h-12 w-auto object-contain"
+            />
+          </Link>
           <p className="text-sm text-muted-foreground">
             {siteConfig.shortDescription}
           </p>
