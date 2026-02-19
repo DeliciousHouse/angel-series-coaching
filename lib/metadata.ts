@@ -19,8 +19,8 @@ export const baseMetadata: Metadata = {
     images: [
       {
         url: "/images/logo.webp",
-        width: 1024,
-        height: 682,
+        width: 1536,
+        height: 1024,
         alt: "Angel Series Coaching Network"
       }
     ]

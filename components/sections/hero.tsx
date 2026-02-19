@@ -18,8 +18,9 @@ export const Hero = () => {
           <Image
             src="/images/logo.webp"
             alt="Angel Series Coaching Network"
-            width={200}
-            height={143}
+            width={1536}
+            height={1024}
+            sizes="200px"
             className="h-20 w-auto object-contain"
             priority
           />

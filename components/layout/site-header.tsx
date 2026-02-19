@@ -29,8 +29,9 @@ export const SiteHeader = () => {
           <Image
             src="/images/logo.webp"
             alt={siteConfig.name}
-            width={140}
-            height={50}
+            width={1536}
+            height={1024}
+            sizes="140px"
             className="h-10 w-auto object-contain"
             priority
           />

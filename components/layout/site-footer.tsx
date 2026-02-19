@@ -25,8 +25,9 @@ export const SiteFooter = () => {
             <Image
               src="/images/logo.webp"
               alt={siteConfig.name}
-              width={160}
-              height={57}
+              width={1536}
+              height={1024}
+              sizes="160px"
               className="h-12 w-auto object-contain"
             />
           </Link>
