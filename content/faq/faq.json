@@ -1,34 +1,58 @@
 [
   {
-    "question": "What is coaching and how is it different from therapy?",
-    "answer": "Coaching is future-focused and action-oriented. We work on goals, habits, and accountability. It is not therapy, medical advice, or crisis support."
+    "question": "What is Angel Series Coaching?",
+    "answer": "Angel Series is a structured personal development program designed to create clarity, alignment, and measurable forward movement. It blends guided conversation, accountability, and strategic reflection. The focus is transformation through consistent, practical action."
   },
   {
-    "question": "Which coaching tier is right for me?",
-    "answer": "Choose $111 for a single clarity session, $222 for focused goal acceleration, and $333 for deeper transformation with ongoing support."
+    "question": "Who is this coaching for?",
+    "answer": "This program is for individuals who feel stuck, overwhelmed, or ready for their next level. It is especially suited for high-functioning professionals, entrepreneurs, and leaders seeking direction and personal expansion. It is not therapy or crisis intervention."
   },
   {
-    "question": "What happens in a session?",
-    "answer": "We clarify your goals, identify obstacles, and map a realistic plan. You leave with clear next steps and tailored tools."
+    "question": "What makes Angel Series different?",
+    "answer": "Angel Series is structured and intentional. Each session builds on the previous one with defined themes and outcomes. The emphasis is on self-responsibility, awareness, and sustainable change-not motivation alone."
   },
   {
-    "question": "Do you offer in-person sessions?",
-    "answer": "Yes, limited in-person sessions are available by request. Most clients choose virtual sessions for flexibility."
+    "question": "What can I expect in a session?",
+    "answer": "Sessions are 60-90 minutes and conducted virtually. Each meeting includes guided exploration, strategic questioning, and clear action steps. You leave with clarity and defined commitments."
   },
   {
-    "question": "What is your reschedule and cancellation policy?",
-    "answer": "Reschedules are allowed up to 24 hours in advance. Cancellations within 24 hours are non-refundable."
+    "question": "How long does the program last?",
+    "answer": "Programs typically run in structured series (e.g., 4, 8, or 12 weeks). Duration depends on the level of depth and goals selected. Transformation is built through consistency."
   },
   {
-    "question": "Is coaching confidential?",
-    "answer": "Yes. Coaching conversations are confidential except where disclosure is required by law or safety concerns."
+    "question": "How much does it cost?",
+    "answer": "Pricing varies based on format (individual, group, or premium package). Each tier reflects session frequency, level of access, and added support resources. Payment is processed securely via Stripe."
   },
   {
-    "question": "Do you provide resources between sessions?",
-    "answer": "Yes. Each tier includes email support between sessions with targeted exercises and accountability check-ins."
+    "question": "Do you offer payment plans?",
+    "answer": "Yes. Select packages include structured payment options. Full payment details are provided before enrollment."
   },
   {
-    "question": "What outcomes can I expect?",
-    "answer": "Expect clarity, stronger boundaries, and consistent action. Results depend on your commitment and the goals we set together."
+    "question": "Is this therapy?",
+    "answer": "No. Angel Series is coaching, not therapy or clinical treatment. It focuses on forward movement and accountability rather than diagnosis or mental health treatment."
+  },
+  {
+    "question": "What results can I expect?",
+    "answer": "Clients typically report increased clarity, confidence, improved decision-making, and stronger alignment between values and actions. Results depend on engagement and commitment to implementation."
+  },
+  {
+    "question": "Is there a consultation before committing?",
+    "answer": "Yes. A short consultation call determines fit, goals, and appropriate program level. This ensures alignment before enrollment."
+  },
+  {
+    "question": "What if I need to reschedule?",
+    "answer": "Sessions may be rescheduled with 24-hour notice. Missed sessions without notice may not be credited."
+  },
+  {
+    "question": "Is everything confidential?",
+    "answer": "Yes. All sessions and personal disclosures are treated as confidential unless legally required otherwise."
+  },
+  {
+    "question": "Do you offer group coaching?",
+    "answer": "Yes. Group experiences are structured, facilitated programs designed for shared growth and accountability. Availability is limited."
+  },
+  {
+    "question": "Can I upgrade my package later?",
+    "answer": "Upgrades are available based on program availability. Adjustments are discussed directly with the coach."
   }
 ]

@@ -1,44 +1,33 @@
 [
   {
-    "id": "t-clarity",
-    "name": "Maya R.",
-    "role": "Founder",
-    "quote": "Angel Series Coaching helped me turn overwhelm into a focused, doable plan. I left every session with clarity and momentum.",
-    "permission": true,
-    "rating": 5,
-    "photo": "/images/testimonial-1.svg"
-  },
-  {
-    "id": "t-boundaries",
-    "name": "Jordan K.",
-    "role": "Healthcare Professional",
-    "quote": "I learned how to set boundaries without guilt and finally felt in control of my time and energy.",
-    "permission": true,
-    "rating": 5,
-    "photo": "/images/testimonial-2.svg"
-  },
-  {
-    "id": "t-confidence",
-    "name": "Elena P.",
-    "role": "Creative Director",
-    "quote": "The coaching process was structured but personal. I gained confidence and a clearer sense of purpose.",
+    "id": "t-sandra-sturgess",
+    "name": "Sandra Sturgess",
+    "role": "VP Operations",
+    "quote": "The group environment is great for connecting with like-minded professionals. Brenda has a great way about her. When she speaks to the group, you feel like she is connecting with you one-on-one. Specific examples are used to provide concrete take-aways. I recommend joining Brenda's seminars (Women In Action Leadership Series) if you are looking for thought-provoking discussion, excellent educational information, and great company!",
     "permission": true,
     "rating": 5
   },
   {
-    "id": "t-leadership",
-    "name": "Chris A.",
-    "role": "Team Lead",
-    "quote": "Each session felt like a reset. I now lead with calm and a plan instead of reacting.",
+    "id": "t-great-content",
+    "name": "WIALS Participant",
+    "role": "Program Participant",
+    "quote": "Great content and discussions amongst a lovely group of motivated and like-minded women! With Brenda's leadership experience and guidance, I completed this course feeling supported and empowered.",
     "permission": true,
-    "rating": 5,
-    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    "rating": 5
   },
   {
-    "id": "t-transition",
-    "name": "Sofia L.",
-    "role": "Career Transition",
-    "quote": "Angel Series Coaching gave me the tools to make a major career shift with confidence and peace.",
+    "id": "t-game-changer",
+    "name": "WIALS Participant",
+    "role": "Program Participant",
+    "quote": "I wish I'd found this series earlier! Totally recommend it to any woman looking to smash her goals. It's been a total game-changer for me.",
+    "permission": true,
+    "rating": 5
+  },
+  {
+    "id": "t-highly-recommend",
+    "name": "WIALS Participant",
+    "role": "Program Participant",
+    "quote": "This course has been truly transformative, providing valuable tools and insights for personal and professional growth. Under Brenda's passionate leadership, each session was engaging and empowering. I highly recommend this course to any woman seeking to expand her horizons and make a meaningful impact in her career.",
     "permission": true,
     "rating": 5
   }

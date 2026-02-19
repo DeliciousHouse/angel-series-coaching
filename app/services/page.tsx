@@ -1,9 +1,7 @@
-import Link from "next/link";
 import { buildMetadata } from "@/lib/metadata";
 import { Container, Section } from "@/components/sections/section";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { StripeCheckoutButton } from "@/components/forms/stripe-checkout-button";
 
 export const metadata = buildMetadata(
@@ -115,9 +113,6 @@ export default function ServicesPage() {
                 </div>
                 <div className="mt-4 flex flex-col gap-2">
                   <StripeCheckoutButton tier={tier.id} label="Pay & Book" />
-                  <Button asChild variant="outline">
-                    <Link href="/pay/e-transfer">Pay via E-Transfer</Link>
-                  </Button>
                 </div>
               </CardContent>
             </Card>
@@ -134,7 +129,7 @@ export default function ServicesPage() {
             },
             {
               title: "2. Complete payment",
-              copy: "Pay securely via Stripe or E-Transfer."
+              copy: "Pay securely via Stripe."
             },
             {
               title: "3. Book your session",

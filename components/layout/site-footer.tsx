@@ -12,8 +12,7 @@ const quickLinks = [
   { href: "/services", label: "Services" },
   { href: "/book", label: "Book" },
   { href: "/resources", label: "Resources" },
-  { href: "/events", label: "Events" },
-  { href: "/pay/e-transfer", label: "E-Transfer" }
+  { href: "/events", label: "Events" }
 ];
 
 export const SiteFooter = () => {
