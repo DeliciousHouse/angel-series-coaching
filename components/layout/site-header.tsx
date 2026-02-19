@@ -27,7 +27,7 @@ export const SiteHeader = () => {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 sm:px-10 lg:px-16">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/images/logo.svg"
+            src="/images/logo.webp"
             alt={siteConfig.name}
             width={140}
             height={50}
